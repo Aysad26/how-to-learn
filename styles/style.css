@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .header {
@@ -287,7 +287,7 @@
   background-color: #1f1f1f;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;;
   padding-top: 60px;
   padding-bottom: 40px;
   box-sizing: border-box;
@@ -353,6 +353,10 @@
 }
 
 .footer__column-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -368,3 +372,4 @@
   width: 16px;
   margin-right: 10px;
 }
+
