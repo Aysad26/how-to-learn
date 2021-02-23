@@ -2,6 +2,8 @@
   position: relative;
   width: 100%;
   min-height: 790px;
-  padding-top: 100px;
   background: url(../../images/feynman.png) bottom left no-repeat #f2f2f2;
+  z-index: 0;
+  padding-top: 80px;
+  /* поправил, спасибо */
 }
